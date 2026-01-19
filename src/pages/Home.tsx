@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { ArrowRight, Github, Globe, Mail, Shield } from "lucide-react";
+import { ArrowRight, Globe, Mail, Shield } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import { ModeToggle } from "@/components/mode-toggle";
 import { LanguageToggle } from "@/components/language-toggle";
@@ -88,20 +88,7 @@ export default function Home() {
               </CardDescription>
             </CardHeader>
             <CardContent>
-              <div className="grid md:grid-cols-3 gap-4">
-                <a
-                  href="https://github.com/MomentumChat/momentumchat-manager-v2"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-3 p-4 rounded-lg border border-border hover:bg-accent transition-colors"
-                >
-                  <Github className="w-5 h-5 text-muted-foreground" />
-                  <div>
-                    <div className="font-medium text-foreground">GitHub</div>
-                    <div className="text-sm text-muted-foreground">Source code</div>
-                  </div>
-                </a>
-
+              <div className="grid md:grid-cols-2 gap-4">
                 <a
                   href="https://momentumchat.com"
                   target="_blank"

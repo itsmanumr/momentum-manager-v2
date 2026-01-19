@@ -11,7 +11,7 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.2.2-blue.svg)](https://www.typescriptlang.org/)
 [![Vite](https://img.shields.io/badge/Vite-5.3.4-646CFF.svg)](https://vitejs.dev/)
 
-[🌐 Demo](https://manager.momentumchat.com) • [📖 Documentation](https://docs.momentumchat.com) • [💬 Community](https://discord.momentumchat.com)
+[🌐 Demo](https://manager.momentumchat.com) • [📖 Documentation](https://docs.momentumchat.com)
 
 </div>
 
@@ -33,7 +33,7 @@
 
 ## 🚀 About
 
-MomentumChat Manager v2 is a modern, responsive web interface built with React and TypeScript for managing [MomentumChat](https://github.com/MomentumChat/momentumchat-api) instances. It provides a comprehensive dashboard for WhatsApp API management, chatbot integrations, and real-time monitoring.
+MomentumChat Manager v2 is a modern, responsive web interface built with React and TypeScript for managing MomentumChat instances. It provides a comprehensive dashboard for WhatsApp API management, chatbot integrations, and real-time monitoring.
 
 ### Key Highlights
 
@@ -118,7 +118,8 @@ MomentumChat Manager v2 is a modern, responsive web interface built with React a
 
 ```bash
 # Clone the repository
-git clone https://github.com/MomentumChat/momentumchat-manager-v2.git
+# Replace with your repository URL
+git clone <repository-url>
 cd momentumchat-manager-v2
 
 # Install dependencies
@@ -156,7 +157,8 @@ docker-compose up -d
 
 ```bash
 # Clone repository
-git clone https://github.com/MomentumChat/momentumchat-manager-v2.git
+# Replace with your repository URL
+git clone <repository-url>
 cd momentumchat-manager-v2
 
 # Install dependencies
@@ -354,7 +356,7 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 
 ### Reporting Issues
 
-Please use our [Issue Templates](.github/ISSUE_TEMPLATE/) when reporting bugs or requesting features.
+Please contact us at contact@momentumchat.com to report bugs or request features.
 
 ## 📄 License
 
@@ -372,9 +374,8 @@ For commercial licensing inquiries, contact: contact@momentumchat.com
 
 ### Community Support
 
-- 💬 **Discord**: [Join our community](https://discord.momentumchat.com)
 - 📖 **Documentation**: [Official docs](https://docs.momentumchat.com)
-- 🐛 **Issues**: [GitHub Issues](https://github.com/MomentumChat/momentumchat-manager-v2/issues)
+- 📧 **Email**: contact@momentumchat.com
 
 ### Professional Support
 
@@ -407,7 +408,5 @@ MomentumChat Manager v2 is designed for MomentumChat API v2+. For v1 compatibili
 <div align="center">
 
 **Made with ❤️ by the MomentumChat Team**
-
-[⭐ Star us on GitHub](https://github.com/MomentumChat/momentumchat-manager-v2) • [🐛 Report Issues](https://github.com/MomentumChat/momentumchat-manager-v2/issues) • [💬 Join Discord](https://discord.momentumchat.com)
 
 </div>

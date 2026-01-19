@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 - Open source preparation with comprehensive documentation
-- GitHub issue templates and PR templates
+- Issue templates and PR templates
 - Security policy and vulnerability reporting process
 - Docker Compose setup for easy deployment
 - Code quality tools (Prettier, ESLint configurations)

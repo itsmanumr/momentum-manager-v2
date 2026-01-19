@@ -17,18 +17,6 @@ function Footer() {
 
   const links = [
     {
-      name: "Discord",
-      url: "https://discord.momentumchat.com",
-    },
-    {
-      name: "Postman",
-      url: "https://postman.momentumchat.com",
-    },
-    {
-      name: "GitHub",
-      url: "https://github.com/MomentumChat/momentumchat-api",
-    },
-    {
       name: "Docs",
       url: "https://docs.momentumchat.com",
     },

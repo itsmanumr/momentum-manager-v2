@@ -125,18 +125,6 @@ function Sidebar() {
         divider: true,
       },
       {
-        id: "postman",
-        title: t("sidebar.postman"),
-        icon: CircleHelp,
-        link: "https://postman.momentumchat.com",
-      },
-      {
-        id: "discord",
-        title: t("sidebar.discord"),
-        icon: MessageCircle,
-        link: "https://discord.momentumchat.com",
-      },
-      {
         id: "support-premium",
         title: t("sidebar.supportPremium"),
         icon: LifeBuoy,

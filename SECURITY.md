@@ -16,7 +16,7 @@ We take security vulnerabilities seriously. If you discover a security vulnerabi
 
 ### 🔒 Private Disclosure Process
 
-**Please DO NOT create a public GitHub issue for security vulnerabilities.**
+**Please DO NOT create public issues for security vulnerabilities.**
 
 Instead, please report security vulnerabilities by emailing us directly at:
 
@@ -89,4 +89,3 @@ Thank you for helping keep MomentumChat Manager and our community safe! 🙏
 
 **MomentumChat Manager Security Team**
 📧 contact@momentumchat.com
-🌐 https://github.com/MomentumChat/momentumchat-manager-v2
