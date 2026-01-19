@@ -61,7 +61,7 @@
     "dify": "Dify",
     "evoai": "EvoAI",
     "n8n": "n8n",
-    "evolutionBot": "Bot Evolution",
+    "evolutionBot": "Bot MomentumChat",
     "flowise": "Flowise",
     "documentation": "Documentation",
     "postman": "Postman",
@@ -76,7 +76,7 @@
     }
   },
   "login": {
-    "title": "Evolution Manager",
+    "title": "MomentumChat Manager",
     "description": "Veuillez vous connecter pour continuer",
     "form": {
       "serverUrl": "URL du Serveur",
@@ -102,7 +102,7 @@
         "whatsapp": "WhatsApp Cloud API",
         "facebook": "Facebook",
         "instagram": "Instagram",
-        "evolution": "Evolution"
+        "evolution": "MomentumChat"
       },
       "token": "Token",
       "number": "Numéro",
@@ -1134,7 +1134,7 @@
     }
   },
   "evolutionBot": {
-    "title": "Bots Evolution",
+    "title": "Bots MomentumChat",
     "sessions": {
       "label": "Sessions",
       "search": "Rechercher par remoteJid...",
@@ -1160,18 +1160,18 @@
         "error": "Une erreur est survenue lors de l'application des paramètres par défaut"
       },
       "success": {
-        "update": "Bots Evolution mis à jour avec succès",
-        "create": "Bots Evolution créé avec succès",
-        "delete": "Bots Evolution supprimé avec succès",
-        "status": "Statut de Bots Evolution mis à jour avec succès"
+        "update": "Bots MomentumChat mis à jour avec succès",
+        "create": "Bots MomentumChat créé avec succès",
+        "delete": "Bots MomentumChat supprimé avec succès",
+        "status": "Statut de Bots MomentumChat mis à jour avec succès"
       },
-      "error": "Une erreur est survenue lors de la création de Bots Evolution"
+      "error": "Une erreur est survenue lors de la création de Bots MomentumChat"
     },
     "table": {
       "none": "Rien à afficher"
     },
     "form": {
-      "title": "Nouveau Bots Evolution",
+      "title": "Nouveau Bots MomentumChat",
       "examples": {
         "keywordFinish": "#FINISH",
         "unknownMessage": "Désolé, je n'ai pas compris. Pouvez-vous réessayer ?"
@@ -1183,7 +1183,7 @@
         "label": "Description"
       },
       "evolutionBotSettings": {
-        "label": "Paramètres de Bots Evolution"
+        "label": "Paramètres de Bots MomentumChat"
       },
       "apiUrl": {
         "label": "URL de l'API"
@@ -1216,7 +1216,7 @@
         "label": "Conditions"
       },
       "botIdFallback": {
-        "label": "Fallback de Bots Evolution"
+        "label": "Fallback de Bots MomentumChat"
       },
       "generalSettings": {
         "label": "Paramètres Généraux"
@@ -1261,7 +1261,7 @@
       }
     },
     "button": {
-      "create": "Bots Evolution",
+      "create": "Bots MomentumChat",
       "save": "Enregistrer",
       "saving": "Enregistrement...",
       "update": "Mettre à jour",

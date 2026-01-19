@@ -62,7 +62,7 @@
     "dify": "Dify",
     "evoai": "EvoAI",
     "n8n": "n8n",
-    "evolutionBot": "Bot Evolution",
+    "evolutionBot": "Bot MomentumChat",
     "flowise": "Flowise",
     "documentation": "Documentación",
     "postman": "Postman",
@@ -77,7 +77,7 @@
     }
   },
   "login": {
-    "title": "Evolution Manager",
+    "title": "MomentumChat Manager",
     "description": "Por favor, inicia sesión para continuar",
     "form": {
       "serverUrl": "URL del Servidor",
@@ -103,7 +103,7 @@
         "whatsapp": "WhatsApp Cloud API",
         "facebook": "Facebook",
         "instagram": "Instagram",
-        "evolution": "Evolution"
+        "evolution": "MomentumChat"
       },
       "token": "Token",
       "number": "Número",
@@ -1135,7 +1135,7 @@
     }
   },
   "evolutionBot": {
-    "title": "Bot Evolution",
+    "title": "Bot MomentumChat",
     "sessions": {
       "label": "Sesiones",
       "search": "Buscar por remoteJid...",
@@ -1161,18 +1161,18 @@
         "error": "Ocurrió un error al aplicar las configuraciones predeterminadas"
       },
       "success": {
-        "update": "Bot Evolution actualizado con éxito",
-        "create": "Bot Evolution creado con éxito",
-        "delete": "Bot Evolution eliminado con éxito",
-        "status": "Estado de Bot Evolution actualizado con éxito"
+        "update": "Bot MomentumChat actualizado con éxito",
+        "create": "Bot MomentumChat creado con éxito",
+        "delete": "Bot MomentumChat eliminado con éxito",
+        "status": "Estado de Bot MomentumChat actualizado con éxito"
       },
-      "error": "Ocurrió un error al crear el Bot Evolution"
+      "error": "Ocurrió un error al crear el Bot MomentumChat"
     },
     "table": {
       "none": "Nada que mostrar"
     },
     "form": {
-      "title": "Nuevo Bot Evolution",
+      "title": "Nuevo Bot MomentumChat",
       "examples": {
         "keywordFinish": "#FINISH",
         "unknownMessage": "Lo siento, no entendí. ¿Puedes intentar de nuevo?"
@@ -1184,7 +1184,7 @@
         "label": "Descripción"
       },
       "evolutionBotSettings": {
-        "label": "Configuraciones de Bot Evolution"
+        "label": "Configuraciones de Bot MomentumChat"
       },
       "apiUrl": {
         "label": "URL de la API"
@@ -1217,7 +1217,7 @@
         "label": "Condiciones"
       },
       "botIdFallback": {
-        "label": "Fallback de Bot Evolution"
+        "label": "Fallback de Bot MomentumChat"
       },
       "generalSettings": {
         "label": "Configuraciones Generales"
@@ -1262,7 +1262,7 @@
       }
     },
     "button": {
-      "create": "Bot Evolution",
+      "create": "Bot MomentumChat",
       "save": "Guardar",
       "saving": "Guardando...",
       "update": "Actualizar",

@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { CircleHelp, Cog, FileQuestion, IterationCcw, LayoutDashboard, LifeBuoy, MessageCircle, Zap, ChevronDown } from "lucide-react";
+import { Cog, FileQuestion, IterationCcw, LayoutDashboard, LifeBuoy, MessageCircle, Zap, ChevronDown } from "lucide-react";
 import { useMemo } from "react";
 import { useTranslation } from "react-i18next";
 import { Link, useLocation, useNavigate } from "react-router-dom";
@@ -121,26 +121,14 @@ function Sidebar() {
         id: "documentation",
         title: t("sidebar.documentation"),
         icon: FileQuestion,
-        link: "https://doc.evolution-api.com",
+        link: "https://docs.momentumchat.com",
         divider: true,
-      },
-      {
-        id: "postman",
-        title: t("sidebar.postman"),
-        icon: CircleHelp,
-        link: "https://evolution-api.com/postman",
-      },
-      {
-        id: "discord",
-        title: t("sidebar.discord"),
-        icon: MessageCircle,
-        link: "https://evolution-api.com/discord",
       },
       {
         id: "support-premium",
         title: t("sidebar.supportPremium"),
         icon: LifeBuoy,
-        link: "https://evolution-api.com/suporte-pro",
+        link: "https://momentumchat.com/support",
       },
     ],
     [t],
