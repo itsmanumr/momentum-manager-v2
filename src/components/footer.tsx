@@ -18,19 +18,19 @@ function Footer() {
   const links = [
     {
       name: "Discord",
-      url: "https://evolution-api.com/discord",
+      url: "https://discord.momentumchat.com",
     },
     {
       name: "Postman",
-      url: "https://evolution-api.com/postman",
+      url: "https://postman.momentumchat.com",
     },
     {
       name: "GitHub",
-      url: "https://github.com/EvolutionAPI/evolution-api",
+      url: "https://github.com/MomentumChat/momentumchat-api",
     },
     {
       name: "Docs",
-      url: "https://doc.evolution-api.com",
+      url: "https://docs.momentumchat.com",
     },
   ];
 

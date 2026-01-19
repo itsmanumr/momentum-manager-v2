@@ -31,12 +31,12 @@ function Header({ instanceId }: { instanceId?: string }) {
   return (
     <header className="flex items-center justify-between px-4 py-2">
       <Link to="/manager" onClick={navigateToDashboard} className="flex h-8 items-center gap-4">
-        <img src={theme === "dark" ? "https://evolution-api.com/files/evo/evolution-logo-white.svg" : "https://evolution-api.com/files/evo/evolution-logo.svg"} alt="Logo" className="h-full" />
+        <img src="https://momentumhub.io/hubfs/MomentumChat%20logo.png" alt="MomentumChat Logo" className="h-full" />
       </Link>
       <div className="flex items-center gap-4">
         {instanceId && (
           <Avatar className="h-8 w-8">
-            <AvatarImage src={instance?.profilePicUrl || "/assets/images/evolution-logo.png"} alt={instance?.name} />
+            <AvatarImage src={instance?.profilePicUrl || "https://momentumhub.io/hubfs/MomentumChat%20logo.png"} alt={instance?.name} />
           </Avatar>
         )}
         <LanguageToggle />

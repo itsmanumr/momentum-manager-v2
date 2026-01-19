@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to Evolution Manager v2 will be documented in this file.
+All notable changes to MomentumChat Manager v2 will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
@@ -22,7 +22,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 - Modern React + TypeScript + Vite architecture
-- Comprehensive dashboard for Evolution API management
+- Comprehensive dashboard for MomentumChat API management
 - Multi-language support (PT-BR, EN-US, ES-ES, FR-FR)
 - Dark/Light theme support with system preference detection
 - Real-time WebSocket integration for live updates
@@ -41,7 +41,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Chatwoot** - Customer support platform integration
 - **Flowise** - Low-code AI application builder
 - **N8N** - Workflow automation platform
-- **Evolution Bot** - Built-in chatbot functionality
+- **MomentumChat Bot** - Built-in chatbot functionality
 
 #### Event Integrations
 - **Webhook** - HTTP event delivery with retry logic
@@ -92,7 +92,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.x.x] - Legacy Versions
 
-Previous versions of Evolution Manager (v1.x.x) are now considered legacy.
+Previous versions of MomentumChat Manager (v1.x.x) are now considered legacy.
 For migration guides and legacy documentation, please refer to the
 [Migration Guide](docs/MIGRATION.md).
 
@@ -121,4 +121,4 @@ version section during release preparation.
 
 ---
 
-**Evolution Manager v2** - Built with ❤️ by the Evolution API Team
+**MomentumChat Manager v2** - Built with ❤️ by the MomentumChat Team

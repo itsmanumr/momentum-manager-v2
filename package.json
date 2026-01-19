@@ -1,37 +1,38 @@
 {
-  "name": "evolution-manager",
+  "name": "momentumchat-manager",
   "private": false,
   "version": "2.0.0",
   "type": "module",
-  "description": "Modern web interface for Evolution API management",
+  "description": "Modern web interface for MomentumChat management",
   "keywords": [
     "whatsapp",
     "api",
     "chatbot",
-    "evolution-api",
+    "momentumchat",
+    "momentum-chat",
     "react",
     "typescript",
     "management",
     "dashboard"
   ],
-  "homepage": "https://github.com/EvolutionAPI/evolution-manager-v2#readme",
+  "homepage": "https://github.com/MomentumChat/momentumchat-manager-v2#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EvolutionAPI/evolution-manager-v2.git"
+    "url": "git+https://github.com/MomentumChat/momentumchat-manager-v2.git"
   },
   "bugs": {
-    "url": "https://github.com/EvolutionAPI/evolution-manager-v2/issues"
+    "url": "https://github.com/MomentumChat/momentumchat-manager-v2/issues"
   },
   "license": "Apache-2.0",
   "author": {
-    "name": "Evolution API Team",
-    "email": "contato@evolution-api.com",
-    "url": "https://evolution-api.com"
+    "name": "MomentumChat Team",
+    "email": "contact@momentumchat.com",
+    "url": "https://momentumchat.com"
   },
   "contributors": [
     {
-      "name": "Evolution API Team",
-      "email": "contato@evolution-api.com"
+      "name": "MomentumChat Team",
+      "email": "contact@momentumchat.com"
     }
   ],
   "engines": {

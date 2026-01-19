@@ -1,17 +1,17 @@
-# Evolution Manager v2
+# MomentumChat Manager v2
 
 <div align="center">
 
-![Evolution Manager Logo](public/assets/images/evolution-logo.png)
+![MomentumChat Manager Logo](https://momentumhub.io/hubfs/MomentumChat%20logo.png)
 
-**Modern Web Interface for Evolution API Management**
+**Modern Web Interface for MomentumChat Management**
 
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
 [![React](https://img.shields.io/badge/React-18.3.1-blue.svg)](https://reactjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.2.2-blue.svg)](https://www.typescriptlang.org/)
 [![Vite](https://img.shields.io/badge/Vite-5.3.4-646CFF.svg)](https://vitejs.dev/)
 
-[🌐 Demo](https://manager.evolution-api.com) • [📖 Documentation](https://doc.evolution-api.com) • [💬 Community](https://evolution-api.com/discord)
+[🌐 Demo](https://manager.momentumchat.com) • [📖 Documentation](https://docs.momentumchat.com) • [💬 Community](https://discord.momentumchat.com)
 
 </div>
 
@@ -33,7 +33,7 @@
 
 ## 🚀 About
 
-Evolution Manager v2 is a modern, responsive web interface built with React and TypeScript for managing [Evolution API](https://github.com/EvolutionAPI/evolution-api) instances. It provides a comprehensive dashboard for WhatsApp API management, chatbot integrations, and real-time monitoring.
+MomentumChat Manager v2 is a modern, responsive web interface built with React and TypeScript for managing [MomentumChat](https://github.com/MomentumChat/momentumchat-api) instances. It provides a comprehensive dashboard for WhatsApp API management, chatbot integrations, and real-time monitoring.
 
 ### Key Highlights
 
@@ -65,7 +65,7 @@ Evolution Manager v2 is a modern, responsive web interface built with React and 
 - **Chatwoot** - Customer support platform
 - **Flowise** - Low-code AI apps
 - **N8N** - Workflow automation
-- **Evolution Bot** - Built-in chatbot
+- **MomentumChat Bot** - Built-in chatbot
 
 ### 🔗 **Event Integrations**
 - **Webhook** - HTTP event delivery
@@ -111,15 +111,15 @@ Evolution Manager v2 is a modern, responsive web interface built with React and 
 ### Prerequisites
 
 - Node.js 18+ and npm
-- Evolution API instance running
+- MomentumChat API instance running
 - Modern web browser
 
 ### Installation
 
 ```bash
 # Clone the repository
-git clone https://github.com/EvolutionAPI/evolution-manager-v2.git
-cd evolution-manager-v2
+git clone https://github.com/MomentumChat/momentumchat-manager-v2.git
+cd momentumchat-manager-v2
 
 # Install dependencies
 npm install
@@ -136,17 +136,17 @@ Open [http://localhost:5173](http://localhost:5173) in your browser.
 
 ```bash
 # Install globally
-npm install -g evolution-manager
+npm install -g momentumchat-manager
 
 # Or run directly
-npx evolution-manager
+npx momentumchat-manager
 ```
 
 ### Method 2: Docker
 
 ```bash
 # Pull and run
-docker run -p 3000:80 evolutionapi/evolution-manager:latest
+docker run -p 3000:80 momentumchat/manager:latest
 
 # Or use docker-compose
 docker-compose up -d
@@ -156,8 +156,8 @@ docker-compose up -d
 
 ```bash
 # Clone repository
-git clone https://github.com/EvolutionAPI/evolution-manager-v2.git
-cd evolution-manager-v2
+git clone https://github.com/MomentumChat/momentumchat-manager-v2.git
+cd momentumchat-manager-v2
 
 # Install dependencies
 npm install
@@ -176,12 +176,12 @@ npm run preview
 Create a `.env` file in the root directory:
 
 ```env
-# Evolution API Configuration
-VITE_EVOLUTION_API_URL=http://localhost:8080
-VITE_EVOLUTION_API_KEY=your-api-key
+# MomentumChat API Configuration
+VITE_MOMENTUMCHAT_API_URL=http://localhost:8080
+VITE_MOMENTUMCHAT_API_KEY=your-api-key
 
 # Application Configuration
-VITE_APP_NAME="Evolution Manager"
+VITE_APP_NAME="MomentumChat Manager"
 VITE_APP_VERSION="2.0.0"
 
 # Optional: Custom Branding
@@ -194,7 +194,7 @@ VITE_GOOGLE_ANALYTICS_ID=GA_MEASUREMENT_ID
 
 ### API Connection
 
-The manager connects to your Evolution API instance. Configure the connection in the login screen or via environment variables.
+The manager connects to your MomentumChat API instance. Configure the connection in the login screen or via environment variables.
 
 ### Customization
 
@@ -255,21 +255,21 @@ src/
 ```yaml
 version: '3.8'
 services:
-  evolution-manager:
-    image: evolutionapi/evolution-manager:latest
+  momentumchat-manager:
+    image: momentumchat/manager:latest
     ports:
       - "3000:80"
     environment:
-      - VITE_EVOLUTION_API_URL=http://evolution-api:8080
+      - VITE_MOMENTUMCHAT_API_URL=http://momentumchat-api:8080
     depends_on:
-      - evolution-api
+      - momentumchat-api
 ```
 
 ### Building Custom Image
 
 ```bash
 # Build image
-docker build -t my-evolution-manager .
+docker build -t my-momentumchat-manager .
 
 # Run container
 docker run -p 3000:80 my-evolution-manager
@@ -277,15 +277,15 @@ docker run -p 3000:80 my-evolution-manager
 
 ## 🔌 API Integration
 
-### Connecting to Evolution API
+### Connecting to MomentumChat API
 
-1. **Login Screen**: Enter your Evolution API URL and credentials
-2. **Environment**: Set `VITE_EVOLUTION_API_URL` and `VITE_EVOLUTION_API_KEY`
+1. **Login Screen**: Enter your MomentumChat API URL and credentials
+2. **Environment**: Set `VITE_MOMENTUMCHAT_API_URL` and `VITE_MOMENTUMCHAT_API_KEY`
 3. **Runtime**: Configure via the settings page
 
 ### API Endpoints
 
-The manager uses the following Evolution API endpoints:
+The manager uses the following MomentumChat API endpoints:
 
 - `GET /instance` - List instances
 - `POST /instance` - Create instance
@@ -362,32 +362,32 @@ This project is licensed under the Apache License 2.0 with additional conditions
 
 ### Commercial Usage
 
-Evolution Manager can be used commercially, but please review the license conditions regarding:
+MomentumChat Manager can be used commercially, but please review the license conditions regarding:
 - Logo and copyright information
 - Usage notification requirements
 
-For commercial licensing inquiries, contact: contato@evolution-api.com
+For commercial licensing inquiries, contact: contact@momentumchat.com
 
 ## 🆘 Support
 
 ### Community Support
 
-- 💬 **Discord**: [Join our community](https://evolution-api.com/discord)
-- 📖 **Documentation**: [Official docs](https://doc.evolution-api.com)
-- 🐛 **Issues**: [GitHub Issues](https://github.com/EvolutionAPI/evolution-manager-v2/issues)
+- 💬 **Discord**: [Join our community](https://discord.momentumchat.com)
+- 📖 **Documentation**: [Official docs](https://docs.momentumchat.com)
+- 🐛 **Issues**: [GitHub Issues](https://github.com/MomentumChat/momentumchat-manager-v2/issues)
 
 ### Professional Support
 
-- 📧 **Email**: contato@evolution-api.com
-- 🌐 **Website**: [evolution-api.com](https://evolution-api.com)
+- 📧 **Email**: contact@momentumchat.com
+- 🌐 **Website**: [momentumchat.com](https://momentumchat.com)
 - 💼 **Enterprise**: Custom solutions available
 
 ### FAQ
 
 <details>
-<summary>How do I connect to my Evolution API instance?</summary>
+<summary>How do I connect to my MomentumChat API instance?</summary>
 
-Use the login screen to enter your API URL and credentials, or set the `VITE_EVOLUTION_API_URL` environment variable.
+Use the login screen to enter your API URL and credentials, or set the `VITE_MOMENTUMCHAT_API_URL` environment variable.
 </details>
 
 <details>
@@ -397,17 +397,17 @@ Yes! You can modify themes, add languages, and customize components. See the [Co
 </details>
 
 <details>
-<summary>Is this compatible with Evolution API v1?</summary>
+<summary>Is this compatible with MomentumChat API v1?</summary>
 
-Evolution Manager v2 is designed for Evolution API v2+. For v1 compatibility, use Evolution Manager v1.
+MomentumChat Manager v2 is designed for MomentumChat API v2+. For v1 compatibility, use MomentumChat Manager v1.
 </details>
 
 ---
 
 <div align="center">
 
-**Made with ❤️ by the Evolution API Team**
+**Made with ❤️ by the MomentumChat Team**
 
-[⭐ Star us on GitHub](https://github.com/EvolutionAPI/evolution-manager-v2) • [🐛 Report Issues](https://github.com/EvolutionAPI/evolution-manager-v2/issues) • [💬 Join Discord](https://evolution-api.com/discord)
+[⭐ Star us on GitHub](https://github.com/MomentumChat/momentumchat-manager-v2) • [🐛 Report Issues](https://github.com/MomentumChat/momentumchat-manager-v2/issues) • [💬 Join Discord](https://discord.momentumchat.com)
 
 </div>
